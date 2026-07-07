@@ -10,9 +10,9 @@ class Main
     int rolled4 = 0;
     int rolled5 = 0;
     int rolled6 = 0;
-    for(int i = 1; i < 101; i++){
+    for(int i = 0; i < 100; i++){
       int numberRolled = Main.roll();
-      System.out.println("Roll " + i + ": " + numberRolled);
+      System.out.println("Roll " + (i+1) + ": " + "[" + numberRolled + "]");
       if (numberRolled == 1){
         rolled1++;
       }
